@@ -1,0 +1,89 @@
+*{
+
+ box-sizing: border-box;
+  margin: 0;
+  padding: 0;   
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+
+}
+
+img{
+
+width: 583px;
+height: 374px;
+margin-bottom: 60%;
+margin-left: 30%;
+
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: "roboto", sans-serif;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+input{
+
+width: 170px;
+height: 37px;
+background: rgba(255, 255, 255, 0.25);
+border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 5px;
+color: #FFFFFF;
+font-size: 15px;
+outline-color: rgba(174, 195, 70, 1);
+padding: 10px;
+
+
+}
+
+button{
+
+width: 190px;
+height: 37px;
+font-weight: 500;
+font-size: 17px;
+font-family: 'Roboto';
+color: #FFFFFF;
+box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
+border-radius: 10px;
+background: #AEC346;
+margin-left: 140px;
+cursor: pointer
+
+}
+
+.countainer-2{
+   
+  margin-right: 290px;  
+  position: absolute; 
+  pointer-events: none;
+}
+
+.countainer{
+
+margin-top: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.Input-{
+
+display: flex;
+gap: 30px;
+
+}
